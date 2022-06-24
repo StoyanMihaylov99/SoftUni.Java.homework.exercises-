@@ -1,0 +1,11 @@
+Histogram:
+
+
+N integers are given in the interval [1… 1000]. Of these, the percentage of p1 is below 200, another percentage of p2 is from 200 to 399, another percentage of p3 is from 400 to 599, another percentage of p4 is from 600 to 799 and the remaining p5 percent is from 800 upwards. Write a program that composes and prints the percentages p1, p2, p3, p4 and p5.
+
+Example: my me = 20 numbers: 53, 7, 56, 180, 450, 920, 12, 7, 150, 250, 680, 2, 600, 200, 800, 799, 199, 46, 128, We get after. distribution and visualization:
+
+
+
+
+
