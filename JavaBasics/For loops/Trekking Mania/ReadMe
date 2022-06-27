@@ -1,0 +1,71 @@
+Climbers from all over Bulgaria gather in groups and record the next peaks for retrieval. Depending on the size of the group, climbers will climb different peaks.
+
+· Group of up to 5 people - climb Musala
+
+· Group of 6 to 12 people - climb Mont Blanc
+
+· Group of 13 to 25 people - climb Kilimanjaro
+
+· Group of 26 to 40 people - climb K2
+
+· A group of 41 or more people - climb Everest
+
+Write a program that is the percentage of climbers climbing all the peaks.
+
+
+
+
+Input:
+
+A series of numbers are read from the console, each on a separate line:
+
+· In the first row - the number of groups of climbers - an integer in the range [1 ... 1000]
+
+· For each group on a separate line - the number of people in the group - an integer in the interval [1 ... 1000]
+
+
+
+
+
+Output:
+
+Print 5 lines on the console, each containing a percentage between 0.00% and 100.00% to the second digit after the decimal point.
+
+· First row - the percentage of climbing Musala
+
+· Second row - the percentage of climbing Mont Blanc
+
+· Third row - the percentage of climbing Kilimanjaro
+
+· Fourth row - the percentage of climbers K2
+
+· Fifth row - the percentage of climbing Everest
+
+
+Example:
+
+
+Input:              Output:
+
+10                   1.84%
+
+10                   6.75%
+
+5                    5.21%
+
+1                    31.60%
+
+100                  54.60%
+
+12
+
+26
+
+17
+
+37
+
+40
+
+78
+
