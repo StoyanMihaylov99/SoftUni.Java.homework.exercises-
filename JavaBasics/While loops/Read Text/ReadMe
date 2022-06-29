@@ -1,0 +1,27 @@
+Read text:
+
+
+Write a program that reads text from the console (string) and prints it until it receives the "Stop" command.
+
+
+Example:
+
+Input:                          Output:
+ 
+Nakov                           Nakov
+
+SoftUni                         SoftUni
+
+Sofia                           Sofia
+
+Bulgaria                        Bulgaria
+
+SomeText                        SomeText
+
+Stop
+
+AfterStop
+
+Europe
+
+HelloWorld
