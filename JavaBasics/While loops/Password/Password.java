@@ -8,11 +8,12 @@ public class Password {
 
         String username = scanner.nextLine();
         String password = scanner.nextLine();
-        String password2 = scanner.nextLine();
+        String input = scanner.nextLine();
 
-        if(password2.equals(password)){
-            System.out.println("Welcome " + username + "!");
+        while(!input.equals(password)){
+            input = scanner.nextLine();
         }
+        System.out.println("Welcome " + username + "!");
 
     }
 }
