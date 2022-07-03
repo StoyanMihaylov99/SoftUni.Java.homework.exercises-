@@ -1,0 +1,18 @@
+Max Number:
+
+Write a program that, until receiving the "Stop" command, reads integers entered by the user and finds the largest among them. Enter one number per line.
+
+Example:
+
+
+
+Input:     Output:
+
+ 
+-10          20
+
+ 20 
+
+-30 
+
+Stop
