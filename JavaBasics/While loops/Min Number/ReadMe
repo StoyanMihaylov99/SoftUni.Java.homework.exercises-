@@ -1,0 +1,5 @@
+Min Number:
+
+
+Write a program that, until receiving the "Stop" command, reads integers entered by the user and is the smallest in between. Enter one number per line.
+
