@@ -1,0 +1,30 @@
+Cake:
+
+
+You're invited to a 30th birthday party where the birthday boy treats himself to a huge cake. However, he does not know how many pieces the guests can take from it. Your task is to write a program that counts the number of pieces the guests have taken before it runs out. You will receive the dimensions of the cake in centimeters (width and length - integers in the interval [1...1000]) and then in each row, until you receive the command "STOP" or until the cake runs out, the number of pieces that the guests take from her. The pieces are square with a size of 1 cm.
+
+Print one of the following lines to the console:
+
+· "{number of pieces} pieces are left." - if you reach STOP and there are pieces of cake left.
+
+· "No more cake left! You need {number of missing pieces} pieces more."
+
+
+
+Example:
+
+
+ 
+Input:              Output:
+
+10                    8 pieces are left.
+
+2
+
+2
+
+4
+
+6
+
+STOP
