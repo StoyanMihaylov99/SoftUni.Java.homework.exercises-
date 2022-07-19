@@ -1,0 +1,40 @@
+Train The Trainers:
+
+
+
+The "Train the trainers" course is coming to an end and the final evaluation is approaching. Your task is to help the jury that will evaluate the presentations by writing a program that calculates the average grade from the presentation of each presentation by a given student, and finally the average success of all of them.
+
+The number of people in the jury is read from the console of the first row n - an integer in the interval [1…20]
+
+After that, the name of the presentation - text - is read on a separate line
+
+For each presentation on a new line, read n - the number of ratings - a real number in the interval [2.00…6.00]
+
+After calculating the average score for a particular presentation, it is printed to the console
+
+"{presentation name} - {average grade}."
+After receiving a "Finish" command, the console prints "Student's final assessment is {average of all presentations}." and the program ends.
+
+All values ??must be formatted to the second decimal place.
+
+
+
+Example:
+
+Input:                      Output:
+
+2                          While-Loop - 5.75.
+
+While-Loop                 For-Loop - 5.75  
+
+6.00                       Student's final assessment is 5.75.
+
+5.50
+
+For-Loop
+
+5.84
+
+5.66
+
+Finish
