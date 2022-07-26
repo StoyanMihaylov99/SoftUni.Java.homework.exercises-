@@ -1,0 +1,46 @@
+Flower Shop:
+
+
+
+Maria wants to buy her son a present. She works in a flower shop. An order for flowers comes into the shop. Write a program that calculates the amount of the order and whether the profit is enough for the gift. Flowers have the following prices:
+ 
+• Magnolias – BGN 3.25
+• Hyacinths – 4 BGN
+• Roses – BGN 3.50
+• Cacti – 8 BGN
+From the total amount, Maria has to pay 5% taxes.
+
+
+
+Input:
+
+
+The input is read from the console and consists of 5 lines:
+• Number of magnolias – an integer in the interval [0 … 50]
+• Number of hyacinths – an integer in the interval [0 … 50]
+• Number of roses – an integer in the interval [0 … 50]
+• Number of cacti – an integer in the interval [0 … 50]
+• Price of the gift – a real number in the interval [0.00 … 500.00]
+
+
+Output:
+
+
+One line should be printed to the console.
+• If the money HAS arrived: "She is left with {remaining} leva." – the amount must be rounded to a smaller whole number (eg 1.90 -> 1).
+• If the money is NOT enough: "She will have to borrow {remaining} leva." – the amount must be rounded to a larger whole number (eg 1.10 -> 2).
+
+
+
+Example:
+
+
+
+Input:                    Output:
+
+
+2                         She will have to borrow 9 leva.
+3
+5
+1
+50
