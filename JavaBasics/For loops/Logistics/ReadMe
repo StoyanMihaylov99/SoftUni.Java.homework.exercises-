@@ -1,0 +1,52 @@
+Logistics:
+
+
+
+Answer the logistics of various cargoes. Depending on the weight of the product, a different vehicle is required. The price per ton for which the goods are transported is different for each vehicle:
+• Up to 3 tons - minibus (200 BGN per ton)
+• From 4 to 11 tons - truck (175 BGN per ton)
+• 12 tons and more - train (120 BGN per ton)
+Your task is to calculate the average price per ton of transported product, as well as the percentage of tons transported by each vehicle, aimed at the total weight (in tons) of all cargo.
+
+
+
+Input:
+
+
+A series of numbers are read from the console, each on a separate line:
+• On the first line - the number of loads for transport - an integer in the interval [1...1000]
+• For each load on a separate line - the tonnage of the load - an integer in the interval [1...1000]
+
+
+
+Output:
+
+
+To print to the console 4 lines as follows:
+• First line – the average price per ton of transported cargo (rounded to the second digit after the decimal point);
+• Second row – the percentage of tons transported by van (percentage between 0.00% and 100.00%);
+• Third row – the percentage of tons transported by truck (percentage between 0.00% and 100.00%);
+• Fourth row – the percentage of tons transported by train (percentage between 0.00% and 100.00%).
+
+
+
+
+Example:
+
+
+Input:          Output:
+
+
+
+
+4                143.80
+1                16.00%
+5                20.00%
+16               64.00%
+3
+
+
+
+
+
+
