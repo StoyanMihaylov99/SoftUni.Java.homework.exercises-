@@ -1,4 +1,0 @@
-DayOfWeek01
-
-Write a program, that reads the integer entered by the user, and prints the day of the week within [1 ... 7]
-or prints "Error" if the number entered is invalid.
