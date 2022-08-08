@@ -1,0 +1,45 @@
+Sleepy Tom cat:
+
+
+
+Tom the cat likes to sleep all day, unfortunately his owner plays with him whenever he has free time. To get a good night's sleep, Tom's gaming norm is 30,000 minutes a year. Tom's play time depends on his owner's days off:
+• When he is at work, his owner plays with him for 63 minutes a day.
+• When he is resting, his owner plays with him for 127 minutes a day.
+
+Write a program that inputs the number of days off and prints whether Tom can get a good night's sleep and the difference from the norm for the current year, assuming that the year has 365 days.
+Example: 20 days off -> working days are 345 (365 – 20 = 345). Actual playing time is 24,275 minutes (345 * 63 + 20 *127). The difference from the norm is 5,725 minutes (30,000 – 24,275 = 5,725) or 95 hours and 25 minutes.
+
+
+
+Input:
+
+
+The input is read from the console and consists of a single number - the number of days off - an integer in the range 
+[0...365]
+
+
+
+
+Output:
+
+
+Two lines should be printed on the console.
+• If Tom's playing time is above the norm for the current year:
+o On the first line, print: “Tom will run away”
+o On the second line, print the difference from the norm in the format:
+“{H} hours and {M} minutes more for play”
+• If Tom's playing time is below par for the current year:
+o On the first line, print: “Tom sleeps well”
+o On the second line, print the difference from the norm in the format:
+“{H} hours and {M} minutes less for play”
+
+
+
+Example:
+
+
+  
+Input:                 Output:
+                     Tom sleeps well                    
+20                     95 hours and 25 minutes less for play
+

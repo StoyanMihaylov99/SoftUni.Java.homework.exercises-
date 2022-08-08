@@ -1,0 +1,45 @@
+Match Tickets:
+
+
+When the Euro 2016 tickets were released, a group of fans decided to buy them. Tickets have two categories with different prices:
+• IP – BGN 499.99.
+• Normal – BGN 249.99.
+Zapalyankovites have a certain budget, and the number of people in the group determines what percentage of the budget should be set aside for transpoFrom 1 to 4 - 75% of the budget.
+
+• From 5 to 9 – 60% of the budget.
+• From 10 to 24 – 50% of the budget.
+• From 25 to 49 – 40% of the budget.
+• 50 or more – 25% of the budget.
+
+Write a program that calculates whether they can buy tickets for the selected category with the remaining money from the budget. And how much money will they have left or need.
+
+
+
+Input:
+
+The input is read from the console and contains exactly 3 lines:
+• On the first line is the budget - a real number in the interval [1 000.00 ... 1 000 000.00]
+• On the second line is the category - "VIP" or "Normal"
+• On the third line is the number of people in the group - an integer in the interval [1 ... 200]
+
+
+
+Output:
+
+To print one line to the console:
+• If the budget is sufficient:
+o "Yes! You have {the rest of the group's money} leva left."
+• If the budget IS NOT sufficient:
+o "Not enough money! You need {amount that does not reach} leva."
+Amounts must be formatted to two decimal places.
+
+
+
+Example:
+
+
+Input:                 Output:
+
+1000                     Yes! You have 0.01 leva left.
+Normal
+1

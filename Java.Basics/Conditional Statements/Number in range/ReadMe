@@ -1,0 +1,6 @@
+Number in range:
+
+
+
+Write a program that checks if the number entered by the user is in the range [-100, 100] and is different from 0 and displays "Yes" if it meets the conditions, or "No" if it is outside them.
+

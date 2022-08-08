@@ -1,0 +1,37 @@
+Transport Price:
+
+
+
+A student has to travel n kilometers. He has a choice between three types of transport:
+• Fees. Initial fee: BGN 0.70. Daily rate: BGN 0.79 / km. Night rate: BGN 0.90 / km.
+• Bus. Day/night rate: BGN 0.09/km. It can be used for a minimum stay of 20 km.
+• Train. Day / night rate: BGN 0.06 / km. It can be used for a stay of at least 100 km.
+Write a program that enters the number of kilometers n and the time of day (day or night) and calculates the cost of the cheapest transport.
+
+
+
+Input:
+
+
+Two lines are read from the console:
+• The first line contains the number n - number of kilometers - an integer in the interval [1...5000]
+• The second line contains the word "day" or "night" - travel during the day or at night
+
+
+
+Output:
+
+
+To print to the console the lowest price for the specified number of kilometers, formatted to the second decimal place.
+
+
+
+Example:
+
+
+
+Input:                 Output:
+
+
+7                        7.00
+night
