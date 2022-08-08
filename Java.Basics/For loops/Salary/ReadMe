@@ -1,0 +1,33 @@
+Salary:
+
+The head of the company records that more and more employees spend time on sites that distract them.
+
+To prevent this, he introduces surprise checks on browser tabs to open employees.
+
+According to the open site, the following fines are imposed in the tab:
+
+· "Facebook" -> BGN 150
+
+· "Instagram" -> BGN 100
+
+· "Reddit" -> BGN 50
+
+
+
+Input:
+
+Two lines are read from the console:
+
+· Number of open tabs in the browser n - the integer in the range [1 ... 10]
+
+· Salary - a number in the interval [500 ... 1500]
+
+Then read the name in cash n times.
+
+
+
+Output:
+
+· If during the inspection the salary becomes less than or equal to BGN 0, "You have lost your salary" is displayed on the console. and the program ends.
+
+· Otherwise, after checking the console, the rest of the salary is displayed (to be written as an integer)

@@ -1,0 +1,38 @@
+Hospital:
+
+
+
+For a given period of time, every day patients arrive at the hospital for examination. It initially has 7 doctors. Each doctor can only see one patient per day, but sometimes there is a shortage of doctors, so the remaining patients are sent to other hospitals. Every third day, the hospital makes calculations and if the number of unexamined patients is greater than the number of examined ones, another doctor is appointed. As the appointment takes place before the admission of patients for the day begins.
+Write a program that calculates for the given period the number of examined and unexamined patients.
+
+
+
+Input:
+
+
+The input is read from the console and contains:
+• On the first line - the period for which you need to make calculations. An integer in the range [1 ... 1000]
+• On the next lines (equal to the number of days) – the number of patients who arrive for examination for the current day. An integer in the range [0…10000]
+
+
+
+Output:
+
+
+To print 2 lines to the console:
+• On the first line: "Treated patients: {number of patients examined}."
+• On the second line: "Untreated patients: {number of untreated patients}."
+
+
+
+
+Example:
+
+Input:                    Output:
+
+                             Treated patients: 23.
+4                            Untreated patients: 21.
+7
+27
+9
+1

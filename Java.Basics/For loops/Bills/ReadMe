@@ -1,0 +1,44 @@
+Bills:
+
+
+Write a program to calculate the average monthly period of a family for a given period of time. The following are paid for each month:
+• For electricity – every month is different, it will be read from the console
+• for water – BGN 20
+• for internet – BGN 15.
+• for others - electricity, water and internet for the month are collected and 20% is added to the amount.
+For each expense, you need to calculate how much was paid in total for all months.
+
+
+Input:
+
+The input is read from the console:
+• First row - the months for which the average cost is sought - an integer in the interval [1...100]
+• For each month - the electricity bill - a real number in the interval [1.00...1000.00]
+
+
+
+Output:
+
+
+
+To print to the console 5 lines:
+• 1st line: "Electricity: {current for all months} ??lv"
+• 2nd row: "Water: {water for all months} ??lv"
+• 3rd line: "Internet: {internet for all months} ??lv"
+• 4th line: "Other: {other for all months} ??lv"
+• 5th line: "Average: {average of all expenses per month} lv"
+All numbers must be formatted to the second decimal place.
+
+
+
+Example:
+
+
+Input:                   Output:
+
+5                       Electricity: 447.16 lv
+68.63                     Water: 100.00 lv
+89.25                     Internet: 75.00 lv
+132.53                    Other: 746.59 lv
+93.53                     Average: 273.75 lv
+63.22
