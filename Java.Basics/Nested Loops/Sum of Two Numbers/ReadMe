@@ -1,0 +1,32 @@
+Sum of Two Numbers:
+
+Write a program that checks all possible combinations of a pair of numbers in an interval of two given numbers. The output is printed which order is the combination whose sum of numbers is equal to the given magic number. If there is no combination that matches the condition, the message that it was not found is printed.
+
+
+
+Input:
+
+
+The input is read from the console and consists of three lines:
+
+· First row - start of interval - integer in the interval [1...999]
+
+· Second row - end of range - integer in range [greater than first number...1000]
+
+· Third row – the magic number – an integer in the interval [1...10000]
+
+
+
+Output:
+
+
+
+One line should be printed to the console, according to the result:
+
+· If a combination is found whose sum of numbers is equal to the magic number
+
+o "Combination N:{sequence number} ({first number} + {second number} = {magic number})"
+
+· If no combination matching the condition is found
+
+o "{the number of all combinations} combinations - neither equals {the magic number}"

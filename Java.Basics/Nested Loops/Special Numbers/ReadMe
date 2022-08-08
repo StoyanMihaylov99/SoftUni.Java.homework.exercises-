@@ -1,0 +1,36 @@
+Special number:
+
+
+To write the program that reads a single integer N entered by the user and produces all possible "special" numbers from 1111 to 9999. For a number to be "special" it must satisfy the following condition:
+
+· N is divisible by each of its digits without a remainder.
+
+Example: for N = 16, 2418 is a special number:
+
+· 16 / 2 = 8 with no remainder
+
+· 16 / 4 = 4 with no remainder
+
+· 16 / 1 = 16 with no remainder
+
+· 16 / 8 = 2 with no remainder
+
+
+
+Input:
+
+The input is read from the console and consists of a single integer in the range [1…600000]
+
+
+
+Output:
+
+All "special" numbers separated by a space should be printed on the console
+
+
+Example:
+
+Input:                      Output:
+ 
+3                      1111 1113 1131 1133 1311 1313 1331 1333 
+                       3111 3113 3131 3133 3311 3313 3331 3333
