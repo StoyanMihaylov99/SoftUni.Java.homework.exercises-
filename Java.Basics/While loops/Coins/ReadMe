@@ -1,0 +1,21 @@
+COins:
+
+
+Vending machine manufacturers wanted their machines to return as little change as possible. Write a program that accepts an amount - the change to be returned and calculates how few coins this can be done.
+
+
+
+Example:
+
+
+
+Input:           Output:                 
+
+1.23                 4
+
+
+
+
+Comment:
+
+he change is not 1 BGN and 23 cents. The machine returns it to us with 4 coins: a 1-lev coin, a 20-cent coin, a 2-cent coin and a 1-cent coin.

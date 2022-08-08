@@ -1,0 +1,61 @@
+Exam Preparation:
+
+
+
+Write a program in which Marin solves exam problems until she receives an "Enough" message from her lecturer. For each solved task he gets a grade. The program should finish reading the data on the command "Enough" or if Marin receives the specified number of dissatisfied ratings. Any score less than or equal to 4 is unsatisfactory.
+
+
+Input:
+
+· On the first line - number of unsatisfactory ratings - an integer in the interval [1...5]
+
+· After that, two lines are repeatedly read:
+
+o Task name - text
+
+o Score - an integer in the range [2…6]
+
+
+Output:
+
+· If Marin reaches the "Enough" command, print on 3 lines:
+
+o "Average score: {average score}"
+
+o "Number of problems: {number of all problems}"
+
+o "Last problem: {last problem name}"
+
+· If he receives the specified number of unsatisfactory marks:
+
+o "You need a break, {number of unsatisfactory grades} poor grades."
+
+Average grade to be formatted to the second decimal place.
+
+
+Example:
+
+
+
+Input:         Output:
+
+3              Average score: 5.25 
+               Number of problems: 4 
+               Last problem: Bus
+Money
+
+6
+
+Story
+
+4
+
+Spring Time
+
+5
+
+Bus
+
+6
+
+Enough
