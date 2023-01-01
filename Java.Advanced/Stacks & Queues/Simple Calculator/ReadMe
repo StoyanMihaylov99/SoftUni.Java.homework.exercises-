@@ -1,0 +1,22 @@
+Create a simple calculator that can evaluate simple expressions that will not hold any operator different from addition and subtraction. There will not be parentheses or operator precedence.
+
+Solve the problem using a Stack.
+
+
+
+
+Example:
+
+
+
+Input:
+
+
+2 + 5 + 10 - 2 - 1
+
+
+
+Output:
+
+
+14
