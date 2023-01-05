@@ -1,0 +1,25 @@
+Rework the previous problem so that a child is removed only on a composite (not prime) cycle (cycles start from 1). 
+If a cycle is prime, just print the child's name.
+As before, print the name of the child that is left last.
+
+
+
+Example:
+
+
+Input:
+
+
+Maria Peter George
+2
+
+
+
+Output:
+
+
+Removed Peter
+Prime Maria
+Prime George
+Removed Maria
+Last is George
