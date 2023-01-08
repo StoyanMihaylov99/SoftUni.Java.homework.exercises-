@@ -1,0 +1,16 @@
+Write a program that reads N integers from the console and reverses them using a stack. Use the ArrayDeque<Integer> class. Just put the input numbers in the stack and pop them.
+
+
+Example:
+
+
+
+Input:
+
+
+1 2 3 4 5
+
+
+Output:
+
+5 4 3 2 1
