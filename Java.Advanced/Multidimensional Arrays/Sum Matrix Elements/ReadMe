@@ -1,0 +1,35 @@
+Write a program that reads a matrix from the console and prints:
+
+· The count of rows
+
+· The count of columns
+
+· The sum of all matrix's elements
+
+On the first line, you will get the matrix dimensions in the format "{rows, columns}". On the next lines, you will get the elements for each row separated by a comma.
+
+
+
+Example:
+
+
+
+Input:
+
+
+3, 6
+
+7, 1, 3, 3, 2, 1
+
+1, 3, 9, 8, 5, 6
+
+4, 6, 7, 9, 1, 0
+
+
+
+Output:
+
+
+3
+6
+76
