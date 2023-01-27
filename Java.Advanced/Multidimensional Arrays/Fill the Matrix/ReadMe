@@ -1,0 +1,18 @@
+Filling a matrix regularly (top to bottom and left to right) is boring. Write two methods that fill a size N x N matrix in two different patterns. Both patterns are described below:
+
+Example:
+
+
+Input:
+
+
+3, A
+
+
+
+Output:
+
+
+1 4 7 
+2 5 8 
+3 6 9
