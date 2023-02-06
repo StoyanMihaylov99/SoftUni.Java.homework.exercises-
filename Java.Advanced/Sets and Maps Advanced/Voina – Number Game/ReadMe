@@ -1,0 +1,26 @@
+Write a program that:
+
+· Reads 20 numbers for both players, separated with " " (single space).
+
+o Every player can hold unique numbers.
+
+Each Round, both players get the top number from their deck. The player with the bigger number gets both numbers and adds them to the bottom of his sequence.
+
+The game ends after 50 rounds or if any player loses all of his numbers.
+
+
+
+
+Input:
+
+
+26 58 16 92 44 65 65 77 57 23 71 57 7 52 85 44 32 70 38 23
+
+43 95 33 51 62 93 57 55 0 31 32 95 68 34 30 51 37 32 11 97
+
+
+
+Output:
+
+
+Second player win!
