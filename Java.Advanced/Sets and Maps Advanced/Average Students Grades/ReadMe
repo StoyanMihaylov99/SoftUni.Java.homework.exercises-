@@ -1,0 +1,36 @@
+Write a program, which reads the name of a student and their grades and adds them to the student record, then prints grades along with their average grade – ordered the output by the students' names.
+
+
+
+
+Input:
+
+
+
+7
+
+Stephan 5.20
+
+Maria 5.50
+
+Stephan 3.20
+
+Maria 2.50
+
+Alex 2.00
+
+Maria 3.46
+
+Alex 3.00
+
+
+
+
+
+Output:
+
+
+
+Alex -> 2.00 3.00 (avg: 2.50)
+Maria -> 5.50 2.50 3.46 (avg: 3.82) 
+Stephan -> 5.20 3.20 (avg: 4.20)
