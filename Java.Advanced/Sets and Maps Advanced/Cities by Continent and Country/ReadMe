@@ -1,0 +1,45 @@
+Write a program to read continents, countries, and their cities put them on a nested map, and print them in the order of their first appearance.
+
+
+
+
+Example:
+
+
+Input:
+
+
+
+9
+
+Europe Bulgaria Sofia
+
+Asia China Beijing
+
+Asia Japan Tokyo
+
+Europe Poland Warsaw
+
+Europe Germany Berlin
+
+Europe Poland Poznan
+
+Europe Bulgaria Plovdiv
+
+Africa Nigeria Abuja
+
+Asia China Shanghai
+
+
+
+
+Output:
+
+
+
+Europe: 
+Bulgaria -> Sofia, Plovdiv 
+Poland -> Warsaw, Poznan 
+Germany -> Berlin 
+Asia: China -> Beijing, Shanghai
+Japan -> Tokyo Africa: Nigeria -> Abuja
