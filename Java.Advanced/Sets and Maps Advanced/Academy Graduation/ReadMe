@@ -1,0 +1,46 @@
+Write a program that:
+
+· Reads from console number of students for a track.
+
+· Reads on pair of rows:
+
+o The first line is the name of the student.
+
+o The second line is his score for a different number of courses.
+
+· Print on console "{name} is graduated with {average scores)".
+
+
+
+
+Example:
+
+
+
+Input:
+
+
+
+3
+
+George
+
+3.75 5
+
+Maria
+
+4.25 6
+
+Peter
+
+6 4.5
+
+
+
+
+Output:
+
+
+George is graduated with 4.375 
+Maria is graduated with 5.125 
+Peter is graduated with 5.25
