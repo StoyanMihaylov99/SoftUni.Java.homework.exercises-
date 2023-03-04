@@ -1,0 +1,23 @@
+Write a program that reads one line of text from the console. Print the count of words that start with an Uppercase letter, after that print all these words in the same order as you found them in the text.
+Use a Predicate<String>.
+
+
+
+
+Example:
+
+
+
+Input:
+
+
+The following example shows how to use Predicate
+
+
+
+Output:
+
+
+2
+The
+Predicate
