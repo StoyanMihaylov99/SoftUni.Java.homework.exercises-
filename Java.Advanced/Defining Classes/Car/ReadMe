@@ -4,3 +4,34 @@ The class should have public fields for:
 ·	Model: String
 ·	Horsepower: int
 Create a new class and ensure proper naming:
+
+
+
+This method should return the info about any car object in the following format:
+"The car is: {brand} {model} – {horsePower} HP."
+You have to figure out how to create a method and use it in the outside code, as shown below:
+
+
+
+
+Example:
+
+
+
+Input:
+
+
+3
+Chevrolet Impala 390
+Mercedes Benz 500
+Volga 24 49
+
+
+
+Output:
+
+
+
+The car is: Chevrolet Impala - 390 HP.
+The car is: Mercedes Benz - 500 HP.
+The car is: Volga 24 - 49 HP.
