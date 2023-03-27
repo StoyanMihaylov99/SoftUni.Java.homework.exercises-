@@ -1,0 +1,6 @@
+Create a class named Car.
+The class should have public fields for:
+·	Brand: String
+·	Model: String
+·	Horsepower: int
+Create a new class and ensure proper naming:
