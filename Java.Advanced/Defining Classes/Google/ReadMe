@@ -1,26 +1,67 @@
-Make proper constructors for the Car class so you can create car objects with a different type of input information.
-If you miss information about the field of type String set the value to "unknown", and for an integer, fieldset -1.
-First, declare a constructor which takes only the car brand as a parameter:
-Read information about cars the same way as the previous task, however, this time uses constructors to create the objects, not creating an object with the default constructor. You should be able to handle different types of input, the format will be the same as the previous task, but this time some of the data may be missing. For example, you can get only the car brand – which means you have to set the car model to "unknown" and the Horsepower value to -1. There will be lines with complete car data, declare constructor which sets all the fields. 
-You have to add the car objects to a collection of your choice and print the data as in the previous task. The input will always have one or three elements on each line.
+Google is always watching you, so it should come as no surprise that they know everything about you (even your pokemon collection), since you're really good at writing classes, Google asked you to design a Class that can hold all the information they need for people.
+
+You will receive an unknown number of rows from the console until you receive the "End" command, on each of those lines, there will be information about a person in one of the following formats:
+
+· "{Name} company {companyName} {department} {salary}"
+
+· "{Name} pokemon {pokemonName} {pokemonType}"
+
+· "{Name} parents {parentName} {parentBirthday}"
+
+· "{Name} children {childName} {childBirthday}"
+
+· "{Name} car {carModel} {carSpeed}"
+
+You should structure all information about a person in a class with nested subclasses. People's names are unique - there won't be 2 people with the same name, a person can also have only 1 company and car, but can have multiple parents, children, and pokemons. After the command "End" is received on the next line, you will receive a single name, you should print all information about that person. Note that information can change during the input, for instance, if we receive multiple lines which specify a person's company, only the last one should be the one remembered. The salary must be formatted to two decimal places after the separator.
+
+Note: print the information in the format:
+
+"{personName}
+
+Company:
+
+{companyName} {companyDepartment} {salary}
+
+…
+
+Children:
+
+{childName} {childBirthday}
+
+…"
+
 
 
 
 Example:
 
 
+
+
 Input:
 
 
-2
-Chevrolet
-Golf Polo 49
+PeterSmith company PeshInc Management 1000.00
+
+JohnJohnson car Trabant 30
+
+PeterSmith pokemon Pikachu Electricity
+
+PeterSmith parents PoshoPeshev 22/02/1920
+
+JohnJohnson pokemon Electrode Electricity
+
+End
+
+JohnJohnson
 
 
 
 Output:
 
 
-
-The car is: Chevrolet unknown - -1 HP.
-The car is: Golf Polo - 49 HP.
+JohnJohnson Company: 
+Car: Trabant 30 
+Pokemon: Electrode Electricity 
+Parents: 
+Children:
